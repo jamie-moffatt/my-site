@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello! My name is Jamie Moffatt. Thank you for visiting my website.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm a researcher in psychology. My research concerns the cognitive and neural underpinnings of voice-hearing experiences.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I am currently employed as a research assistant at Durham University, as part of the Hearing the Voice project. However, I will soon be starting my PhD research at the University of Sussex.
 
-
-[jekyll-organization]: https://github.com/jekyll
+In my spare time I'm a keen gamer, reader and coder.   
