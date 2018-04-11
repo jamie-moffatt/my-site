@@ -22,13 +22,15 @@ url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://
 twitter_username: JAMoffatt
 github_username:  jamie-moffatt
 
+
+
 # Build settings
 markdown: kramdown
 theme: minima
+
+
 plugins:
   - jekyll-feed
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
