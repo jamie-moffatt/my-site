@@ -123,7 +123,7 @@ var instructions_page = {
 
 Some parameters are consistent across all plugins (like `type:`), while others are unique to specific plugins (like `pages:`). A list of parameters that each plugin uses, along with explanations on what they do, can be found on the [jsPsych website](http://www.jspsych.org/plugins/overview/).
 
-# 6 Running your experiment
+# 6. Running your experiment
 
 After your new variable, write out the following code:
 
