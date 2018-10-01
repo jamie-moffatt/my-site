@@ -4,7 +4,7 @@ title: "Setting up jsPsych"
 date: 2018-04-15 20:30:00 +0100
 ---
 
-# 1. Setting up jsPsych
+# 1. Download and organise jsPsych
 
 Download the latest version of jsPsych
 
@@ -52,7 +52,7 @@ In the file, type or copy over the following:
 
 The `<html>` tags tell any program that this script is in HTML. The `<head>` tags are where to put general information about the script - for example, you would put your title here in `<title>` tags. The `<body>` tags are where to put the actual content of the html page - any paragraphs, images or links. There are plenty of resources available online to learn HTML, and not much knowledge of the language is needed to design experiments in jsPsych, so I won't go into much more detail here.
 
-# 4. Preparing the file for jsPsych
+# 4. Prepare the HTML file for jsPsych
 
 Before you begin creating your experiment, you will need to import the jsPsych library. This is done by entering `<script>` tags in your `<head>` section. Within the `<script>` tag, you need to specify the path to your jsPsych master script with `src="jspsych.js"`. See the example below:    
 
@@ -73,7 +73,7 @@ You might also want to import the default jsPsych stylesheet. This will make you
 </head>
 ```
 
-# 5. Creating a Trial
+# 5. Create a jsPsych Trial
 
 Trials in jsPsych are defined using plugins. Most of your experiment will be written using jsPsych plugins, so I'll briefly explain what they are. If you look in your plugins folder, you will see a range of JavaScript files. Each of these files provides functionality for a specific thing that you might want to do in a trial. For example:
  * The "jspsych-instructions" plugin is for displaying pages of instructions to a participant.
@@ -123,7 +123,7 @@ var instructions_page = {
 
 Some parameters are consistent across all plugins (like `type:`), while others are unique to specific plugins (like `pages:`). A list of parameters that each plugin uses, along with explanations on what they do, can be found on the [jsPsych website](http://www.jspsych.org/plugins/overview/).
 
-# 6. Running your experiment
+# 6. Run your experiment
 
 After your new variable, write out the following code:
 
